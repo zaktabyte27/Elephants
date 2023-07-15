@@ -1,0 +1,175 @@
+body {
+    background-image: url("Images/NAMIBIA2.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(12, 65, 95);
+    color: white;
+    justify-content: space-between;
+    height: 60px;
+    padding: 16px;
+}
+
+a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header .right-links{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 16px;
+    gap: 16px;
+}
+
+.website-desc{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(12, 65, 95);
+    color: white;
+    justify-content: space-around;
+    padding: 16px;
+    opacity: 0.8;
+}
+
+#Placeholder{
+    height: 300px;
+    width: 700px;
+    object-fit: contain;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.website-desc .left-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    padding:16px;
+    width: 350px;
+    height: 300px;
+    border-radius: 12px;
+    border-color: black;
+}
+
+.website-desc button, .Action button {
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(0, 162, 255);
+    flex-shrink: 0;
+}
+
+.website-desc .Placeholder{
+    display: flex;
+    border-radius: 12px;
+    border-color: black;
+    border-style: solid;
+    height: 300px;
+    width: 700px;
+    flex-shrink: 1;
+    background-color: lightcyan;
+}
+
+.random-info{
+    display:flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: space-between;
+    background-color: white;
+    color:black;
+    align-items: center;
+    gap: 16px;
+    opacity: 0.8;;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    
+    flex:1;
+}
+
+.box div{
+    border-radius: 12px;
+    border-color: black;
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+    background-color: lightcyan;
+}
+
+.inspiring-quote{
+    display: flex;
+    background-color: darkgray  ;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:8px;
+}
+
+.Action{
+    display: flex;
+    padding:16px 32px;
+    background-color: rgb(12, 65, 95);
+    justify-content: space-around;
+    opacity: 0.8;
+}
+.container{
+    background-color: lightblue;
+    width: 720px;
+    color: white;
+    display: flex;
+    border-radius: 12px;
+    padding: 16px 32px;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.container button{
+    align-self: center;
+    width: 200px;
+    height: 50px;
+}
+
+.footer{
+    background-color:rgb(12, 65, 95) ;
+    color: white;
+    justify-content: space-around;
+    padding:16px
+}
+
